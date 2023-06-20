@@ -1,7 +1,41 @@
-  footer {
-      background-color: #f2f2f2;
-      padding: 20px;
-      text-align: center;
-      font-size: 14px;
-      color: #666;
-  }
+   body {
+       font-family: 'Raleway', sans-serif;
+       padding: 1rem 3rem;
+   }
+
+   h1 {
+       font-family: 'Raleway', sans-serif;
+       font-size: 40px;
+       font-weight: 900;
+   }
+
+   #nav {
+       display: flex;
+       text-transform: uppercase;
+       gap: 2rem;
+
+   }
+
+   #nav a {
+       color: #222;
+       text-decoration: none;
+   }
+
+   hr {
+       background-color: #222;
+       margin: 1rem;
+   }
+
+
+
+
+
+
+
+   footer {
+       background-color: #f2f2f2;
+       padding: 20px;
+       text-align: center;
+       font-size: 14px;
+       color: #666;
+   }
