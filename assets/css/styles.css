@@ -35,7 +35,8 @@
    }
 
    #nav a:hover,
-   #home h1:hover {
+   #home h1:hover,
+   .about-us h2:hover {
        color: #008285;
    }
 
@@ -56,11 +57,37 @@
        margin: 1.3rem;
    }
 
-   #home h1 {
+   #home {
+       margin: 0 2rem;
+   }
+
+   #home h1,
+   .about-us h2 {
        font-size: 35px;
        font-weight: 500;
 
    }
+
+   .pomodoro h2,
+   .integrate h2 {
+       font-weight: 500;
+       color: #008285;
+
+   }
+
+   .pomodoro img {
+       width: 500px;
+       height: 400px;
+
+   }
+
+   .technique {
+       display: flex;
+   }
+
+   .integrate h2 {}
+
+
 
 
 
