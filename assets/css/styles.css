@@ -68,10 +68,16 @@
 
    }
 
+   .pomodoro,
+   .integrate {
+       margin-top: 5rem;
+   }
+
    .pomodoro h2,
    .integrate h2 {
        font-weight: 500;
        color: #008285;
+       text-align: center;
 
    }
 
@@ -81,9 +87,21 @@
 
    }
 
-   .technique {
-       display: flex;
+   .technique,
+   .mindfulness {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 2rem;
+       margin: 1rem;
+
    }
+
+
+   .pomodoro p,
+   .mindfulness p {
+       line-height: 1.5;
+   }
+
 
    .integrate h2 {}
 
