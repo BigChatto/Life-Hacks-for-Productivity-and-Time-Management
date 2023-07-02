@@ -68,6 +68,11 @@
 
    }
 
+   .pomodoro {
+       background-color: #f5f5f5;
+       padding: 1rem;
+   }
+
    .pomodoro,
    .integrate {
        margin-top: 5rem;
@@ -88,7 +93,8 @@
    }
 
    .technique,
-   .mindfulness {
+   .mindfulness,
+   #contact {
        display: grid;
        grid-template-columns: repeat(2, 1fr);
        gap: 2rem;
@@ -102,8 +108,41 @@
        line-height: 1.5;
    }
 
+   .forms {
+       display: flex;
+       flex-direction: column;
+       gap: 0.5rem;
+       margin: 1rem;
 
-   .integrate h2 {}
+   }
+
+   input {
+       height: 30px;
+       border-radius: 5px;
+       border: 1px solid #222;
+   }
+
+   label {
+       color: #008285;
+
+   }
+
+   button {
+       width: 30%;
+       border: 1px solid #222;
+       background-color: #f5f5f5;
+       border-radius: 5px;
+       margin: 1rem;
+       cursor: pointer;
+       font-weight: 600;
+       padding: .5rem;
+
+   }
+
+
+
+
+
 
 
 
@@ -125,7 +164,7 @@
 
 
    footer {
-       background-color: #f2f2f2;
+       background-color: #f5f5f5;
        padding: 20px;
        text-align: center;
        font-size: 14px;
