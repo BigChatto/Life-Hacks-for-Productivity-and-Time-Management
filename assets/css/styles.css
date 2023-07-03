@@ -139,26 +139,19 @@
 
    }
 
+   .email {
+       display: flex;
+       align-items: center;
+       gap: 0.5rem;
 
+   }
 
+   .socials {
+       display: flex;
+       flex-direction: column;
+       gap: 1rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   }
 
 
 
