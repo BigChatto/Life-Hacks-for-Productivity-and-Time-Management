@@ -247,10 +247,54 @@
            padding: 1rem;
        }
 
-
        .pomodoro img,
        .mindfulness iframe {
            width: 300px;
            height: 200px;
+       }
+
+       .tagline {
+           width: 75%;
+       }
+   }
+
+   @media only screen and (min-width: 280px) and (max-width: 395px) {
+       body {
+           padding: 0;
+
+       }
+
+       .title h1 {
+           font-size: 35px;
+       }
+
+
+       #nav {
+           gap: 1rem;
+       }
+
+       #nav a,
+       p,
+       .pomodoro,
+       .mindfulness,
+       li,
+       h2 {
+           font-size: 12px;
+       }
+
+
+
+       hr {
+           width: 80%;
+       }
+
+       .pomodoro img,
+       .mindfulness iframe {
+           width: 250px;
+           height: 200px;
+       }
+
+       .tagline {
+           width: 60%;
        }
    }
