@@ -8,17 +8,9 @@
         width: 83%;
     }
 
-    .technique,
-    .mindfulness,
-    #contact {
-        display: block;
-
-    }
-
     #home p,
     .about-us p {
         width: 100%;
-
     }
 
     .pomodoro h2,
@@ -30,22 +22,25 @@
         margin: 1rem;
     }
 
+    .technique,
+    .mindfulness,
+    #contact {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 412px) and (max-width: 425px) {
     body {
         padding: 0;
-
     }
 
     #nav {
         gap: 1rem;
-
     }
 
     #nav a {
         font-size: 15px;
-
     }
 
     #home h1,
